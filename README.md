@@ -1,1 +1,9 @@
-# Product-management-app
+# Vue 3 Product Management App
+
+This is a mini Product Management application built with Vue 3, Pinia, and Vite, integrated with the public API at DummyJSON (https://dummyjson.com). The app supports user authentication (login + token handling), product listing with search and filter, viewing product details, adding new products, and state management with Pinia. It includes reusable components like Navbar, ProductCard, and ProductFilter, and provides a responsive layout with Vue Router managing navigation and protected routes. The primary color used in the app is #000080.
+
+The project uses Vue 3 as the frontend framework, Vite for development and bundling, Pinia for state management, Axios for HTTP requests with automatic token handling, and Vue Router for navigation. The project structure includes `src/main.js` for bootstrapping the app, `App.vue` as the root layout, `router/index.js` for routing, `stores/authStore.js` for authentication, `stores/productStore.js` for product data, `services/api.js` for centralized API calls, and views for Login, Products, Product Details, and Add Product. Components include Navbar, ProductCard, and ProductFilter, and global styling is defined in `src/assets/global.css`.
+
+To run the app, clone the repository, install dependencies with `npm install`, and start the development server with `npm run dev`. Open your browser at http://localhost:5173. Use the following credentials for testing login: username `kminchelle` and password `0lelplR`.
+
+The app allows logging in, accessing the product list, searching and filtering products, viewing detailed information about a product, adding a new product (which redirects automatically to the details page), and logging out to return to the login page. Note that DummyJSON is a mock API, so added products may not persist permanently. The UI is responsive, clean, and easily extendable. This project is open source and free to use.# Product-management-app
